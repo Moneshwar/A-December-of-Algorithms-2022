@@ -1,7 +1,9 @@
 # A-December-of-Algorithms-2022
 <div align="left">
 <h1>
-    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/204576737-21be2ad2-1b86-477d-9af6-33eb562c6f1c.jpeg" width="500"></img></p>
+    <p align="center"><img alt="header" src="https://user-images.githubusercontent.com/105559815/206869067-620c21f7-9ba1-48b1-b690-c010be416ad2.jpg" width="500"></img></p>
+
+
 </h1>
 Welcome to A December of Algorithms (2022). 
 
@@ -31,6 +33,13 @@ Check out our FAQ for more information.
   - [**December 5 - Don’t let Mason misspend!**](#december-5---dont-let-mason-misspend)
   - [**December 6 - Swapped**](#december-6---swapped)
   - [**December 7 - Word Map**](#december-7---word-map)
+  - [**December 8 - Aptitude Check!**](#december-8---aptitude-check)
+  - [**December 9 - Kochouseph Konundrum!**](#december-9---kochouseph-konundrum)
+  - [**December 10 - Play with words**](#december-10---play-with-words)
+  - [**December 11 - Monkey jump**](#december-11---monkey-jump)
+  - [**December 12 - Shez in a Maze!**](#december-12---shez-in-a-maze)
+  - [**December 13 - The Labyrinth**](#december-13---the-labyrinth)
+  - [**December 14 - Math Mystery**](#december-14---math-mystery)
   - [**FAQ**](#faq)
   
   
@@ -446,9 +455,422 @@ Output:
     - [Strings in C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
     - [Strings in Java](https://www.tutorialspoint.com/java/java_strings.htm)
     - [String in Python](https://www.tutorialspoint.com/python/python_strings.htm)
+    
+----
+    
+### December 8 - Aptitude Check!
+#### Problem Statement
+Arshith is a pre-final year student preparing for his aptitude, technical and interview rounds as part of his placement training. 
+
+He has come across a mind-boggling problem statement that integrates a coding problem with a logical question as specified below:
+
+In a specific language, “DEMOCRACY” is coded as “EDOMRCCAY".
+
+Help Arshith develop a way to translate any given word to that particular language. Compute it using any approach of programming.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/110989285/206233419-53af37a7-e675-4b59-b722-f67adfe0a5ae.png" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+ Input:  UNCOPYRIGHTABLE
+ Output: NUOCYPIRHGATLBE
+
+```
+
+```
+ Input:  SPEEDRUNNER
+ Output: PSEERDNUENR
+
+```
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
 
 ----
 
+### December 9 - Kochouseph Konundrum!
+#### Problem Statement
+Kochouseph Chittilappilly went to Dhruv Zplanet , a gaming space, with his friends and played a game called “Guess the Word”.
+
+Rules of the game are –
+
+Computer displays some strings on the screen and the player should pick one string / word if this word matches with the random word that the computer picks then the player is declared as Winner.
+
+Kochouseph Chittilappilly’s friends played the game and no one won the game. This is Kochouseph Chittilappilly’s turn to play and he decided to win the game.
+What he observed from his friend’s game is that the computer is picking up the first string whose length is odd and is of maximum length. 
+
+Due to system failures computers sometimes cannot generate odd length words. In such cases you will lose the game irrespective of whether you guess the right word or not and it displays “better luck next time”. 
+
+Write a program to help Kochouseph win the game.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/110716198/206476505-7cc0c18c-4034-46e1-8cd4-7e2ef8f72801.png" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+Input:
+5
+Hello Good Morning Welcome You
+
+Output :
+Morning
+
+```
+
+```    
+Input:
+3
+Go to hell
+
+Output :
+Better luck next time
+
+```
+
+ #### Explanation
+ 
+ ```
+ The first line of input is the number of words in the given string.
+ The second line of input is the string of words.
+ 
+ The output is the word chosen by the computer.
+ 
+ ```
+ 
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+----
+
+### December 10 - Play with words
+#### Problem Statement
+A group of students were playing a word game. They divided themselves into teams and had 4 rounds. 
+
+One round was the pronunciation round. One team challenged the other team to pronounce “schtschurowskia”. It was difficult for both the teams to pronounce the word. They approached their teacher for help. He gave them a hint. 
+
+Have a look at the hint!
+
+Hint:
+ A word is hard to pronounce if it contains 4 or more consonants in a row; otherwise it is easy to pronounce. 
+ 
+For example, "apple" and "polish" are easy to pronounce, but "schtschurowskia" is hard to pronounce.   After giving them an example, he asked them  to solve the following problem.
+ 
+Given: A string S consisting of N lowercase Latin characters. 
+
+To Determine:  Whether it is easy to pronounce or not based on the rule above — print YES if it is easy to pronounce and NO otherwise.
+For the purposes of this problem, the vowels are the characters {a,e,i,o,u} and the consonants are the other 21 characters.
+Help them solve the problem.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/105559815/206757545-341cbd7a-d12a-4af9-8d1f-a4da640343b4.jpg" width="400"></p>
+
+ #### Sample Input/Output
+     
+```    
+Input:
+5
+5
+apple
+15
+schtschurowskia
+6
+polish
+5
+tryst
+3
+cry
+
+Output:
+YES
+NO
+YES
+NO
+YES
+ 
+ ```
+ 
+#### Explanation:
+
+ ```
+
+Input Format:
+
+The first line of input will contain a single integer T, denoting the number of test cases.
+Each test case consists of two lines of input.
+The first line of each test case contains a single integer N, the length of string S.
+The second line of each test case contains the string S.
+
+Output Format:
+
+For each test case, output on a new line the answer — YES if S is easy to pronounce, and NO otherwise.
+Each character of the output may be printed in either uppercase or lowercase. For example, the strings YES, yeS, yes, and YeS will all be treated as identical.
+
+Constraints:
+
+1≤T≤100
+
+1≤N≤100
+
+S contains only lowercase Latin characters, i.e, the characters {a,b,c…….z}
+
+```
+
+- **References**
+    - [Strings in C++](https://www.geeksforgeeks.org/stdstring-class-in-c/)
+    - [Strings in Python](https://www.geeksforgeeks.org/python-string/)
+    - [String in Java](https://www.geeksforgeeks.org/strings-in-java/)
+
+----
+
+
+### December 11 - Monkey jump
+#### Problem Statement
+
+A list is provided with a sequence of characters  <img src="https://user-images.githubusercontent.com/105559815/206890030-28a45bf0-2bcd-4e50-b81d-1c81bc714ccb.jpg" width="250">. The character ‘_’ represents land and the character ‘~’ represents water. A monkey can move 1 step or 2 steps in a single jump. Another list provided here contains the step that the monkey took Eg[1,1,2,1,2]. Whenever the monkey touches the water. The game is over and the score must be returned. Calculate the jumps the monkey took before touching the water.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119495356/206857020-3aefe633-ed69-4eef-a285-ef6ab27ac6ff.jpg" width="400" height="400"></p>
+
+
+ #### Sample Input/Output
+     
+```    
+Input 1:
+
+[‘_’,’~’,’_’,’_’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+[2,1,1,1,2,1,2,1]
+
+Output 1:
+
+Score =7
+
+Input 2:
+
+[‘_’,’~’,’_’,’~’,’_’,’_’,’~’,’_’,’_’,’~’,’_’,’~’]
+
+[2,2,1,1,1,1,2,1,1]
+
+Output 2: 
+Score =3
+
+ ```
+ 
+#### Explanation:
+
+ ```
+
+The first line of input is a combination of ‘_’ and ‘~’ representing land and water respectively.
+The second line of input ia a combination of 2's and 1's, 2 steps indicate, for example, initially being on position 1 and ending up on position 3 without landing on position 2 in between.
+ 
+Monkey takes two steps in a single jump as first move and three single steps as the next 3 moves/jumps, another 2 jumps, 1 jump and another 2 jumps.  
+Given the jump sequence: [2,1,1,1,2,1,2,1]
+Since in the 8th jump the monkey touches water, the total jump count before he touches the water is 7 and thus the score is 7.
+
+```
+
+- **References**
+- [Looping in C](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
+- [Looping in C++](https://www.programiz.com/cpp-programming/for-loop)
+- [Looping in Java](https://www.geeksforgeeks.org/loops-in-java/)
+- [Looping in Python](https://www.w3schools.com/python/python_for_loops.asp)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+
+----
+### December 12 - Shez in a Maze!
+#### Problem Statement
+Shez went to an interesting maze where she was given 500 coins. The rule of the maze is when you choose a path in a maze you need to drop the amount indicated on the path and successfully reach the end.
+
+The winner is declared based on the amount you have spent. The person who has spent the least amount will be the winner.
+
+Can you help her win the maze?
+
+The cost of the path will be in a NxN matrix and the current path is indicated by path[i][j], from the current path you can either travel up, down, front or back.
+
+Note that the start of the maze is the top most left corner and the destination is the bottom most right corner.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/113821083/206911442-4e4d9831-108d-4fcb-b46e-b08011205af5.png" width="400" height="400"></p>
+
+#### Sample Input/Output
+``` 
+INPUT 1:
+
+4
+Path = { {9,4,9,9}, {6,7,6,4}, {8,3,3,7}, {7,4,9,10} }
+
+OUTPUT 1:	
+
+path_taken={9,4,7,3,3,7,10}
+The minimum coins dropped is 43
+``` 
+``` 
+INPUT 2:	
+
+3
+Path = { {8,3,9}, {2,6,4}, {8,3,1}}
+
+OUTPUT 2:	
+
+path_taken={8,2,6,3,1}
+The minimum coins dropped is 20
+``` 
+#### Explanation:
+```
+
+The first line of input is the size of the NxN matrix.
+The next line of input is an NxN matrix where each element represents the number of coins you need to drop at that position.
+
+The output is a path_taken matrix and the minimum coins dropped amount. 
+
+9  4  9  9
+6  7  6  4
+8  3  3  7
+7  4  9  10
+Minimum cost  = 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43
+So here we see that from the start point Shez can take 3 paths which are of costs 4,7,6 respectively. 
+
+Of these 3 paths the one with cost 4 is the path with minimum cost.  
+
+Now from 4 she can either take a path of cost 9 or 7 (Remember you can move only up, down, front, back and no diagonal movement is allowed) so she takes the path with cost 7.
+From 7 she has 4 options; paths of costs 6,6,3,4 (Taking path 4 is not advisable since that is from where we came to path 7) so now she takes path with cost 3 and then from this position 3 she can either take paths 8,7,3,4; the minimum cost is 3 so she proceeds in the path with cost 3. Following this logic she finishes the maze with spending a minimum amount of 43 units.
+
+```
+
+----
+### December 13 - The Labyrinth
+#### Problem Statement
+In Ancient Greek mythology, the Labyrinth was an intricate maze constructed by the master inventor Daedalus as per the orders of King Minos of Crete. 
+Many heroes from afar contended to escape the maze and overpower the ferocious beast Minotaur, but none succeeded in their attempts except for one, the great Theseus of Athens.
+Imagine a modern-world Labyrinth similar to an N*N binary matrix of blocks such that:
+- The starting point is the upper leftmost block
+- The endpoint is the lower rightmost block
+- Dead ends are represented by 0
+- A clear path is represented by 1
+
+Help Theseus escape this Labyrinth if he can only move forward and backwards throughout his quest.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/103169831/207067128-5d025f1e-da9f-4caa-bbbe-6546b2398d2b.jpg" width="400"></p>
+
+
+
+
+#### Sample Input/Output
+``` 
+INPUT:
+4
+{1,0,0,0}
+{1,1,0,1}
+{0,1,0,0}
+{1,1,1,1}
+
+
+OUTPUT:	
+{1,0,0,0}
+{1,1,0,0}
+{0,1,0,0}
+{0,1,1,1}
+
+``` 
+``` 
+INPUT:	
+4
+{1,1,1,0}
+{1,0,1,1}
+{0,1,0,1}
+{0,1,1,1}
+
+
+OUTPUT:	
+{1,1,1,0}
+{0,0,1,1}
+{0,0,0,1}
+{0,0,0,1}
+
+``` 
+#### Explanation:
+```
+The first line of input is the size of the N*N matrix.
+In the given samples, the input matrix specifies the structure of the maze in which 0's represent the dead ends, and 1's represent the clear blocks. 
+After computing a path to the destination, the output matrix represents the path to the destination block using 1’s.
+
+```
+
+----
+### December 14 - Math Mystery 
+#### Problem Statement
+Dr. Satheesh Kumar is an outstanding professor in Discrete Mathematics. However, he has been assigned to teach an unruly batch of students. The lesson he planned to cover in the upcoming class was of utmost importance for the students.
+
+The lesson was none other than “Graph Theory”, which required a concise understanding of fundamental theoretical concepts and numerous theorems.
+
+The professor decided to execute those theorems programmatically as the students belong to the Computer Science department. He prepared all the theorems as programs except one theorem, which discussed the topic of “Graph Bipartite”.
+
+Bipartite Graph: It is a graph whose vertices can be divided into 2 independent sets U and V such that every edge (u,v), either connects a vertex from U to V or a vertex from V to U. (We can also say that there is no edge that connects vertices of the same set).
+
+Help Dr. Satheesh Kumar come up with a program which obtains a graph as input and produces an output verifying its bipartite property.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/119515193/207395361-b94676d6-2675-446a-a59e-a1725de869f1.png" width="400"></p>
+
+
+
+
+
+#### Sample Input/Output
+``` 
+INPUT:
+6
+
+0 1 0 0 0 1
+1 0 1 0 0 0 
+0 1 0 1 0 0 
+0 0 1 0 1 0
+0 0 0 1 0 1
+1 0 0 0 1 0
+
+OUTPUT:	
+The graph is Bipartite!
+
+``` 
+``` 
+INPUT:	
+4
+
+0 1 0 1
+1 0 1 0 
+0 1 0 1
+1 0 1 0
+
+OUTPUT:	
+The graph is Bipartite!
+
+``` 
+#### Explanation:
+```
+The first line of the input is the number of vertices in the graph.The next part of the input is the adjacency matrix of the graph,
+where every row/column is a vertex and the 1 represents an edge connecting two vertices. 
+You are required to divide the given vertices into two sets such that:
+          1. Every vertex in one set is connected to at least one vertex in the other set.
+          2. There is no edge between the vertices of the same set.
+
+```
+- **References**
+- [Bipartite graphs](https://www.tutorialspoint.com/bipartite-graphs)
+- [Adjacency matrices](https://www.javatpoint.com/what-is-an-adjacency-matrix)
+- [Arrays in C++](http://www.cplusplus.com/doc/tutorial/arrays/)
+- [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
+
+----
+
+ 
 FAQ
 ======
 
